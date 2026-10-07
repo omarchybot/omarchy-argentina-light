@@ -1,0 +1,52 @@
+# Argentina Light — Omarchy theme
+
+A light Omarchy theme inspired by the home kit of the Asociación del Fútbol Argentino: white surfaces with a celeste tint, celeste accents, and gold of the Sol de Mayo.
+
+![preview](preview.png)
+
+## Install
+
+```bash
+omarchy theme install https://github.com/santiagoei/omarchy-argentina-light.git
+omarchy theme set argentina-light
+```
+
+## Palette
+
+| Token | Color | Inspiration |
+|---|---|---|
+| accent | `#3f7fb5` | Celeste (legible on white) |
+| background | `#f4f9fd` | Blanco de la casaca |
+| foreground | `#16324a` | Azul AFA |
+| yellow | `#e0a800` | Sol de Mayo |
+| green | `#3f9d6e` | Campo de juego |
+| red | `#c9425a` | Papel picado |
+| brown | `#8f6a3f` | Pelota de cuero |
+
+Window borders use a celeste→gold gradient.
+
+## Backgrounds
+
+11 photos of Argentina (Buenos Aires, Iguazú, El Calafate, and one for Diego), cycled alphabetically — `01_arg_tierradelfuego_glaciar.jpg` opens the theme.
+
+## Sister theme
+
+[omarchy-argentina](https://github.com/santiagoei/omarchy-argentina.git) — the alternate kit version: deep navy.
+
+## Development
+
+This repo root is the theme directory itself; `omarchy theme install` clones it to `~/.config/omarchy/themes/<name>`. Everything here is color data: no `*.lua`, terminal configs, or `vscode.json` are shipped (those are dropped by the installer and regenerated from `colors.toml`).
+
+To hack on it locally:
+
+```bash
+git clone <this-repo> ~/code/omarchy-argentina-light
+ln -s ~/code/omarchy-argentina-light ~/.config/omarchy/themes/argentina-light
+omarchy theme set argentina-light
+```
+
+Remove the symlink before testing `omarchy theme install` — the installer deletes the destination directory.
+
+## License
+
+MIT
