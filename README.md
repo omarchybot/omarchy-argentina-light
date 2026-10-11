@@ -1,6 +1,6 @@
 # Argentina Light — Omarchy theme
 
-A light Omarchy theme inspired by Argentina — the white-and-celeste of its flag and the bright southern light: white surfaces with a celeste tint, celeste accents, and gold of the Sol de Mayo.
+A light Omarchy theme inspired by Argentina — the white-and-celeste of its flag and the bright southern light: white surfaces with a celeste tint, celeste accents, and warm gold.
 
 ![preview](preview.png)
 
@@ -18,7 +18,7 @@ omarchy theme set argentina-light
 | accent | `#3f7fb5` | Celeste (legible on white) |
 | background | `#f4f9fd` | Blanco celeste |
 | foreground | `#16324a` | Azul bandera |
-| yellow | `#e0a800` | Sol de Mayo |
+| yellow | `#e0a800` | Oro cálido |
 | green | `#3f9d6e` | Pampa verde |
 | red | `#c9425a` | Papel picado |
 | brown | `#8f6a3f` | Yerba mate |
@@ -29,8 +29,8 @@ Window borders use a celeste→gold gradient.
 
 20 photos of Argentina — Buenos Aires (the Obeliscos, Congreso, Caminito,
 the neighborhoods, Mar del Plata), Iguazú, El Calafate, Aconcagua, Los
-Alerces, Jujuy's Siete Colores and estadio, the seven lakes of Neuquén,
-Córdoba, a map, and one for Diego. Filenames carry their priority tier,
+Alerces, Jujuy's Siete Colores, the seven lakes of Neuquén,
+Córdoba, a map, and a Buenos Aires mural. Filenames carry their priority tier,
 so the alphabetical cycle runs first-pick first:
 `01_arg_tierradelfuego_glaciar.jpg` opens the theme. The dark sister
 shares this exact pool, renumbered around its own opener.
